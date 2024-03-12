@@ -1,5 +1,5 @@
 import { NestFactory } from '@nestjs/core';
-import {CommunicationModule} from "./communication.module";
+import {CommunicationModule} from "./communications/communication.module";
 
 async function bootstrap() {
   const PORT = process.env.PORT || 3000;
